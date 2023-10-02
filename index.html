@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Kene Wasi</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Barra de navegación -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+      <a class="navbar-brand" href="index.html">Kene Wasi</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+
+        <ul class="navbar-nav mr-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="productos.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="ofertas.html">Ofertas</a>
+          </li>
+        </ul>
+        <div style="display: flex" class="sep">
+          <a class="sep" href="https://www.facebook.com/" target="_blank"><img class="navImgIcon" src="https://icones.pro/wp-content/uploads/2021/02/facebook-icone-noir.png" alt=""></a>
+          <a class="sep" href="https://www.instagram.com/" target="_blank"><img class="navImgIcon" src="https://img2.freepng.es/20180629/vue/kisspng-www-mevrouwpak-nl-advertising-graphic-design-insta-instagramm-5b3692f028e740.4061558515303032161676.jpg" alt=""></a>
+          <a style="font-weight:bold" class="btn btn-dark sep" href="https://wa.link/jgqg9b" target="_blank">CONTACTANOS</a>
+        </div>
+
+      </div>
+    </nav>
+
+  <!-- Encabezado con imagen -->
+  <header class="container-fluid text-center header-with-bg">
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <h1 class="display-4">Bienvenido a la Casa de Las Carnes</h1>
+        <p class="lead">La mejor selección de carnes frescas y de calidad.</p>
+      </div>
+    </div>
+  </header>
+
+  <!-- Sección de productos -->
+  <section id="productos" class="container mt-4">
+    <h2 class="section-title text-center mb-4">Nuestros Productos</h2>
+    <div class="row" >
+      <div class="col-md-6">
+        <div style="background-color: #dc3545;" class="product-card">
+          <img src="img/Productos/FileteDeRes.jpg" alt="Filete" class="img-fluid img-width">
+          <h4 class="h2textcolor">Filete de Res</h4>
+          <p style="color: white;">Deléitate con nuestro tierno y jugoso filete de res. Disfruta de la mejor calidad en cada bocado. ¡Una experiencia exquisita en cada plato!</p>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div style="background-color: #dc3545;" class="product-card">
+          <img src="https://assets.unileversolutions.com/recipes-v2/216821.jpg" alt="Costillas decerdo" class="img-fluid img-width">
+          <h4 class="h2textcolor">Costillas de Cerdo</h4>
+          <p style="color: white;">Descubre el sabor irresistible de nuestras costillas de cerdo. Jugosas, tiernas y ahumados. ¡Saborea la perfección en cada mordisco!</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Sección de ofertas -->
+  <section id="ofertas" class="container mt-4">
+    <h2 class="section-title text-center mb-4">Nuestras Ofertas</h2>
+      <div class="row">
+        <div class="col-md-4">
+          <div class="card">
+            <img src="oferta1.jpg" alt="Oferta 1" class="card-img-top">
+            <div class="card-body">
+              <h5 class="card-title">Oferta Semanal</h5>
+              <p class="card-text">Aprovecha nuestra oferta especial de la semana. ¡Descuento del 20% en cortes selectos!</p>
+              <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOferta1">Ver Detalles</a>
+            </div>
+          </div>
+        </div>
+
+    
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="oferta2.jpg" alt="Oferta 2" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Oferta del Mes</h5>
+            <p class="card-text">No te pierdas nuestra increíble oferta del mes. ¡Lleva 2 kilos de carne y obtén 1 kilo gratis!</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOferta2">Ver Detalles</a>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card">
+          <img src="oferta3.jpg" alt="Oferta 3" class="card-img-top">
+          <div class="card-body">
+            <h5 class="card-title">Oferta Especial</h5>
+            <p class="card-text">Sorpréndete con nuestra oferta especial. ¡Lleva una variedad de cortes a un precio único!</p>
+            <a href="#" class="btn btn-primary" data-toggle="modal" data-target="#modalOferta3">Ver Detalles</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <!-- Modal para la primera oferta -->
+  <div class="modal fade" id="modalOferta1" tabindex="-1" role="dialog" aria-labelledby="modalOferta1Label" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="modalOferta1Label">Detalles de la Oferta Semanal</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          <!-- Contenido de los detalles de la oferta -->
+          <p>¡Aprovecha nuestra oferta especial de la semana!</p>
+          <p>Descuento del 20% en cortes selectos.</p>
+          <!-- Agrega aquí los detalles de la oferta -->
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- Modal para la segunda oferta -->
+<div class="modal fade" id="modalOferta2" tabindex="-1" role="dialog" aria-labelledby="modalOferta2Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalOferta2Label">Detalles de la Oferta Semanal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido de los detalles de la oferta -->
+        <p>¡Aprovecha nuestra oferta especial de la semana!</p>
+        <p>Descuento del 20% en cortes selectos.</p>
+        <!-- Agrega aquí los detalles de la oferta -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+<!-- Modal para la tercera oferta -->
+<div class="modal fade" id="modalOferta3" tabindex="-1" role="dialog" aria-labelledby="modalOferta3Label" aria-hidden="true">
+  <div class="modal-dialog" role="document">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="modalOferta3Label">Detalles de la Oferta Semanal</h5>
+        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+      </div>
+      <div class="modal-body">
+        <!-- Contenido de los detalles de la oferta -->
+        <p>¡Aprovecha nuestra oferta especial de la semana!</p>
+        <p>Descuento del 20% en cortes selectos.</p>
+        <!-- Agrega aquí los detalles de la oferta -->
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-dismiss="modal">Cerrar</button>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+
+  <!-- Sección de contacto -->
+  
+  <footer style="background-color: black;">
+    <section id="contacto" class="container mt-4">
+      <br>
+      <h2 class="section-title text-center mb-4" style="color: white;">Contáctanos</h2>
+      <div class="row">
+        <div class="col-md-6 offset-md-3">
+          <form class="contact-form">
+            <input type="text" name="nombre" placeholder="Nombre" required>
+            <input type="text" name="correo" placeholder="Correo electrónico" required>
+            <textarea name="mensaje" placeholder="Mensaje" rows="5" required></textarea>
+            <button  type="submit">Enviar Mensaje</button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
