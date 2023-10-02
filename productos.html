@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Mi negocio de carnes - Productos</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <style>
+    /* Estilos personalizados */
+    body {
+      background-color: #f8f9fa;
+    }
+
+    .navbar-brand {
+      font-weight: bold;
+      color: #dc3545 !important;
+    }
+
+    .navbar-nav .nav-item {
+      margin-right: 10px;
+    }
+
+    .navbar-nav .nav-item:last-child {
+      margin-right: 0;
+    }
+
+    .navbar .btn-contact {
+      background-color: #dc3545;
+      color: white;
+      border: none;
+      border-radius: 4px;
+      padding: 6px 10px;
+    }
+
+    .navbar .btn-contact:hover {
+      background-color: #c82333;
+    }
+
+    .section-title {
+      font-size: 2rem;
+      font-weight: bold;
+      margin-bottom: 30px;
+    }
+
+    .product-card {
+      background-color: #ffffff;
+      border-radius: 8px;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+      padding: 20px;
+      margin-bottom: 30px;
+    }
+
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+      margin-bottom: 10px;
+    }
+
+    .product-card h4 {
+      font-size: 1.5rem;
+      margin-bottom: 10px;
+    }
+  </style>
+</head>
+<body>
+  
+  <!-- Barra de navegación -->
+  <nav class="navbar navbar-expand-lg navbar-light bg-light">
+    <a class="navbar-brand" href="index.html">ALEXISMEAT</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item active">
+          <a class="nav-link" href="productos.html">Productos</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="ofertas.html">Ofertas</a>
+        </li>
+      </ul>
+      <a class="btn btn-dark" href="https://api.whatsapp.com/send?phone=TU_NUMERO_DE_TELEFONO" target="_blank">CONTACTANOS</a>
+    </div>
+  </nav>
+
+  <!-- Sección de productos -->
+  <!-- Sección de productos -->
+<section id="productos" class="container mt-4">
+    <h2 class="section-title text-center mb-4">Nuestros Productos</h2>
+    <div class="row">
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="filete.jpg" alt="Filete" class="img-fluid">
+          <h4>Filete de Res</h4>
+          <p>Delicioso filete de res, tierno y jugoso. Perfecto para una comida especial.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="costillas.jpg" alt="Costillas de cerdo" class="img-fluid">
+          <h4>Costillas de Cerdo</h4>
+          <p>Jugosas costillas de cerdo sazonadas y listas para asar. ¡Una delicia para los amantes de la barbacoa!</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="hamburguesas.jpg" alt="Hamburguesas" class="img-fluid">
+          <h4>Hamburguesas</h4>
+          <p>Jugosas hamburguesas de carne de res, perfectas para una comida rápida y sabrosa.</p>
+        </div>
+      </div>
+      <!-- Agrega más productos aquí siguiendo el mismo formato -->
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="pollo.jpg" alt="Pollo" class="img-fluid">
+          <h4>Pollo</h4>
+          <p>Piezas de pollo fresco y de alta calidad. Ideal para preparar platos saludables.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="salchichas.jpg" alt="Salchichas" class="img-fluid">
+          <h4>Salchichas</h4>
+          <p>Deliciosas salchichas caseras, perfectas para parrilladas y asados.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="product-card">
+          <img src="pescado.jpg" alt="Pescado" class="img-fluid">
+          <h4>Pescado</h4>
+          <p>Pescado fresco y de calidad, ideal para preparar platos marinos.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+</body>
+</html>
