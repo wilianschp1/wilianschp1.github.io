@@ -2,14 +2,9 @@ body {
     background-color: #f8f9fa;
   }
 
-  h5{
+  .tb{
     color: white;
   }
-
-  p{
-    color: white;
-  }
-
 
   .h2textcolor{
     color: white;
@@ -117,6 +112,15 @@ body {
 
   .navImgIcon{
     height: 40px;
+
+  }
+  
+  .InstaIcon{
+    height: 60px;
+  }
+
+  .TikIcon{
+    height: 43px;
   }
 
   .hidden-section {
