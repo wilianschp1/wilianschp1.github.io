@@ -2,6 +2,14 @@ body {
     background-color: #f8f9fa;
   }
 
+  h5{
+    color: white;
+  }
+
+  p{
+    color: white;
+  }
+
 
   .h2textcolor{
     color: white;
@@ -95,6 +103,7 @@ body {
     border-radius: 10px;
   }
 
+
   .header-with-bg {
     background-image: url(img/FondoHeaderMejorado.jpg);
     background-size: cover;
@@ -108,4 +117,23 @@ body {
 
   .navImgIcon{
     height: 40px;
+  }
+
+  .hidden-section {
+    display: none;
+  }
+
+  @keyframes fadeIn {
+    0% {
+      opacity: 0;
+      transform: translateY(20px);
+    }
+    100% {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  .card.animated {
+    animation: fadeIn 1s ease-in-out;
   }
